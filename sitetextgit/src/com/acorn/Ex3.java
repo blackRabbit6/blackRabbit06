@@ -82,7 +82,10 @@ public class Ex3 {
 						break;
 					}
 				}
-				
+				// (findGroupList? "그룹예약" : "개별예약")
+				// 여기서 findGroupList? 란 조건부연산자 사용하는 표현
+				// 조건(findGroupList) 평가 후 참일때 와 거짓을때 다른 값 반환
+				// 위 ()에서 그룹예약은 참일때 나오는 값이고, 개별예약은 거짓일때 나오는 값이다.
 				if(!findGroupList && !findAloneList) {
 					System.out.println("명단에 없는 이름입니다. 다시 입력하세요");
 				}else {
