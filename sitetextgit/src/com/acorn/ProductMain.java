@@ -9,6 +9,9 @@ public class ProductMain {
         boolean validCorrect = false;
         String role = null;
         String buyer = null;
+        String userId = null;
+        String userNames = null;
+        
 
         String jdbcUrl = "jdbc:oracle:thin:@localhost:1521:XE"; // Oracle 데이터베이스 URL
         String username = "project2"; // 데이터베이스 사용자 이름
@@ -61,5 +64,6 @@ public class ProductMain {
         	BuyerMenu buyerMenu = new BuyerMenu();
         	buyerMenu.display();
         }
+       
     }
 }
